@@ -1,0 +1,35 @@
+
+
+.new-year {
+    position: relative; /* image overlay এর জন্য reference point */
+    display: inline-block; /* image size অনুযায়ী container */
+    margin: 50px 140px;
+
+}
+
+.new-year img {
+    display: block;
+    width: 100%; /* ইচ্ছেমতো adjust করতে পারেন */
+    height: auto;
+    border-radius: 10px; /* optional, চাইলে */
+}
+
+.new-year-title {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); /* পুরো centrally align করে */
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.7); /* ছবির উপর text clearer করার জন্য */
+}
+
+.new-year-title h6 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.new-year-title h1 {
+    margin: 5px 0 0 0;
+    font-size: 36px;
+}
