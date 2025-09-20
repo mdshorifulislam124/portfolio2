@@ -1,5 +1,5 @@
 
-
+/* new year party */
 .new-year {
     position: relative; /* image overlay এর জন্য reference point */
     display: inline-block; /* image size অনুযায়ী container */
@@ -32,4 +32,22 @@
 .new-year-title h1 {
     margin: 5px 0 0 0;
     font-size: 36px;
+}
+
+/* discount offer */
+
+.discount-offer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 300px;
+}
+
+.discount{
+    color: red;
+}
+
+.categories{
+    color: #070211;
 }
