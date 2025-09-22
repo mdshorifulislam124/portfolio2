@@ -320,8 +320,22 @@ h6 {
 .card img{
     width: 328px;
     
-    
 }
 .card-title{
     margin: 5px 0px;
 }
+
+/* sub section */
+
+.sub-section{
+  font-family: Arial, sans-serif;
+  display: block;
+  text-align: center;
+  background-color: #fce4ec; /* Light pink background */
+  margin: 120px 140px;
+  padding: 120px 140px;
+}
+
+
+
+
