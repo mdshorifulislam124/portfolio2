@@ -291,10 +291,6 @@ h6 {
     margin: 10px 150px  250px 0px;
 }
 
-
-
-
-
 .holiday-offer-title{
     display: block;
     text-align: center;
@@ -306,4 +302,26 @@ h6 {
 
 .holiday-offer-title span{
     color: #ff0000;
+}
+
+/* card section */
+.card-section{
+    display: block;
+    margin: 0px 120px 140px;
+}
+.card{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    box-shadow: #ffc8c8;
+    
+}
+
+.card img{
+    width: 328px;
+    
+    
+}
+.card-title{
+    margin: 5px 0px;
 }
