@@ -336,6 +336,59 @@ h6 {
   padding: 120px 140px;
 }
 
+/* footer section */
+
+.footer{
+    
+    background-color: black;
+    height: 70vh;
+    padding: 120px 140px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin: 50px;
+}
+
+.container a{
+    color: white;
+    display: block;
+    align-items: flex-start;
+    text-align: left;
+
+}
+
+.middle-icon{
+    display: block;
+    text-align: center;
+    margin: 100px 0;
+}
+
+.middle-icon img{
+    margin: 10px;
+}
+
+.last-container{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* আইকন এবং টেক্সটের স্টাইল এখানে */
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.contact-item img {
+  width: 20px; /* আইকনের প্রস্থ (width) ঠিক করুন */
+  height: auto; /* উচ্চতা স্বয়ংক্রিয়ভাবে সেট হবে */
+  margin-right: 10px; /* আইকন এবং টেক্সটের মাঝে ফাঁকা জায়গা */
+}
 
 
 
