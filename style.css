@@ -171,3 +171,83 @@ span{
     margin-top: 30px;
 }
 
+/* coming-soon section */
+
+/* পুরো সেকশনের মূল কনটেইনার */
+.coming-soon {
+    /* তিনটি কলামকে পাশাপাশি রাখার জন্য flexbox ব্যবহার করা হয়েছে */
+    display: flex;
+    /* কলামগুলির মধ্যে ফাঁকা জায়গা তৈরি করার জন্য */
+    justify-content: space-between;
+    /* কলামগুলিকে উল্লম্বভাবে মাঝখানে সারিবদ্ধ করার জন্য */
+    align-items: center;
+    /* পুরো সেকশনের জন্য একটি নির্দিষ্ট উচ্চতা */
+    min-height: 100vh;
+    /* পুরো সেকশনের চারপাশে মার্জিন */
+    margin: 0px 120px 140px;
+}
+
+/* বাম কলামের স্টাইল */
+.left-section {
+    /* ছবির সাথে দূরত্ব বজায় রাখতে একটি নির্দিষ্ট প্রস্থ (width) */
+    width: 30%;
+}
+
+/* মাঝের ছবির কলামের স্টাইল */
+.middle-section {
+    /* কন্টেন্টকে মাঝখানে আনার জন্য */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* মাঝের ছবিটির স্টাইল */
+.middle-section .main-image {
+    /* ছবিটিকে গোলাকার করার জন্য */
+    border-radius: 50%;
+    /* ছবির চারপাশে লাল রঙের মোটা বর্ডার তৈরি করা হয়েছে */
+    border: 10px solid #ff0000;
+    /* ছবির একটি নির্দিষ্ট আকার */
+    width: 400px;
+    height: 400px;
+    /* ছবিতে সুন্দর শ্যাডো ইফেক্ট */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-left: 80px;
+}
+
+/* ডান কলামের স্টাইল */
+.right-section {
+    /* বাম পাশের মতই একটি নির্দিষ্ট প্রস্থ */
+    width: 25%;
+    /* কন্টেন্টকে মাঝখানে সারিবদ্ধ করার জন্য */
+    text-align: left;
+    margin-left: 80px;
+}
+
+/* "NEW BEST OFFER" এবং "2024" এর রঙ */
+h4, h2 {
+    color: #ff0000; /* লাল রঙ */
+}
+
+/* "Coming Soon" এর স্টাইল */
+h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #070211;
+}
+
+/* অন্যান্য সাধারণ টেক্সটের স্টাইল */
+h6 {
+    color: black;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/* ব্যানার ছবির স্টাইল */
+.right-section .banner-image {
+    width: 150px;
+    margin-top: 5px;
+}
+
+
+
