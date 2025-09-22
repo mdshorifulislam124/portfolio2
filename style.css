@@ -56,6 +56,7 @@
 
 .welcome-vector{
     min-height: 100vh;
+    width: auto;
     background-image: url(images/Vectorrr.png); /* background img avabe deya lage */
     background-size: contain;
     background-position:  center;
@@ -129,5 +130,44 @@ left p{
 
 .welcome-msg {
     font-size: 50px;
+}
+
+/* place-head */
+
+.place-head{
+    min-height: 100vh;
+    width: auto;
+    background: linear-gradient(
+    to bottom,                  /* দিক: বাম থেকে ডান */
+    #ffc8c8 0%,     /*  100% opacity */
+    #f8f7f7 100%    /*  0% opacity */
+  );
+    
+    display: flex;
+    justify-content: center;
+    background-origin: content-box;  /* make background respect the padding */
+    background-clip: content-box;
+    padding: 0px 120px 140px;
+}
+
+.place-date-time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+span{
+    color: #ff6b6b;
+}
+
+.place-date-time h2{
+    margin: 8px 0;
+    
+}
+
+.place-date-time a{
+    margin-top: 30px;
 }
 
