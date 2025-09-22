@@ -1,4 +1,11 @@
+/* fonr merriweather */
 
+
+
+.merriweather-normally {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+}
 /* new year party */
 .new-year {
     position: relative; /* image overlay এর জন্য reference point */
@@ -254,5 +261,49 @@ h6 {
     margin-top: 5px;
 }
 
+.holiday-offer{
+    background-image: url(images/Rectangle_2.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    margin: 0px 120px 140px;
+    border-radius: 20px;
+    background-size: 100%;
+}  
+
+.left-right{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  
+}
+.left-right img{
+    max-width: 100%;
+    height: auto;
+    align-items: start;
+    
+}
+.holiday-img-left{
+    margin: 10px 150px  50px 0px;
+}
+
+.holiday-img-right{
+    margin: 10px 150px  250px 0px;
+}
 
 
+
+
+
+.holiday-offer-title{
+    display: block;
+    text-align: center;
+    margin: 0px 250px;
+}
+.holiday-offer-title h1{
+    font-family: merriweather;  
+}
+
+.holiday-offer-title span{
+    color: #ff0000;
+}
